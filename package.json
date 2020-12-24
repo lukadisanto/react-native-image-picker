@@ -58,7 +58,9 @@
     "@babel/core": "^7.4.5",
     "@babel/runtime": "^7.4.5",
     "@react-native-community/bob": "^0.6.0",
-    "husky": "^2.4.1",
+    "@react-native-community/eslint-config": "^0.0.5",
+    "@types/react": "^17.0.0",
+    "@types/react-native": "^0.63.42",
     "metro-react-native-babel-preset": "^0.54.1",
     "react": "^16.13.1",
     "react-native": "^0.63.4",
@@ -83,12 +85,6 @@
       "module",
       "typescript"
     ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "pre-push": "yarn test"
-    }
   },
   "lint-staged": {
     "*.{js,ts,tsx}": [
